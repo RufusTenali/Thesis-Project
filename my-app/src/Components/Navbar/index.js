@@ -13,8 +13,8 @@ const Navbar = () => {
           <NavLink to="/matchingCards" activeStyle>
             Matching Cards
           </NavLink>
-          <NavLink to="/bananagram" activeStyle>
-            Bananagrams
+          <NavLink to="/pangrams" activeStyle>
+            Pangrams
           </NavLink>
           <NavLink to="/info" activeStyle>
             More Information

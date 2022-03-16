@@ -3,9 +3,9 @@
 }
 
 .card img {
-  width: 100%;
+  width: 75%;
   display: block;
-  border: 2px solid #fff;
+  border: 2px solid black;
   border-radius: 6px;
 }
 /*front of the card = the picture */
