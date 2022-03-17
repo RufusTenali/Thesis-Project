@@ -32,7 +32,7 @@ export const Bars = styled(FaBars)`
   color: #808080;
   @media screen and (max-width: 768px) {
     display: block;
-    position: absolute;
+    position: flex;
     top: 0;
     right: 0;
     transform: translate(-100%, 75%);
@@ -45,12 +45,12 @@ export const NavMenu = styled.div`
   display: flex;
   align-items: left;
   margin-right: -24px;
-  /* Second Nav */
-  /* margin-right: 24px; */
-  /* Third Nav */
-  /* width: 100vw;
-white-space: nowrap; */
-  @media screen and (max-width: 768px) {
+  Second Nav
+  margin-right: 24px;
+  Third Nav
+  width: 100vw;
+white-space: wrap;
+  @media screen and (max-width: 350px) {
     display: none;
   }
   color: white;
