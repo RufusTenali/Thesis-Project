@@ -1,12 +1,13 @@
 import React from 'react';
+import '../Components/Navbar/info.css'
   
 const Info = () => {
   return (
-    <div class="card-grid">
+    <div class="icard-grid">
       <div id="info" class="flip-box">
     <div class="flip-box-inner">
       <div class="flip-box-front">
-        <h2 id="text">Information 1</h2>
+        <h2 id="text">What is Dementia?</h2>
       </div>
       <div class="flip-box-back">
         <h2>Play</h2>

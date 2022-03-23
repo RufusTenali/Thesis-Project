@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 import { useState } from "react";
 import SingleCard from "../Components/Navbar/SingleCard";
+import '../App.css'
   
 const cardImages = [
   {"src": "/img/red-1.png", matched: false},
