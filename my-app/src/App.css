@@ -5,6 +5,7 @@
   background-color: white;
   padding: 10px;
   margin: -8px;
+  scrollbar-width: 100px;
 }
 
 .matching {
